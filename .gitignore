@@ -14,6 +14,7 @@
 !verify-soul.sh
 !bootstrap.sh
 !README.md
+!UNIVERSAL_PACKAGE_SOUL.md
 
 # Allow git submodules directories (git will handle their contents)
 !/Projects/
