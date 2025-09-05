@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "resonance": 432,
+  "genesis": "2025-09-06T00:00:00Z",
+  "genome": {
+    "core": {
+      "package.json": "562a9fd12ddb03d6893542adca08245932fe262903017bea3848a11a41ba6f7d",
+      "pnpm-workspace.yaml": "a7d4d922f7793e887efe41ad6207dc7f769aa863516c8e277c2452d66ea9b7fe",
+      ".gitignore": "bf7074f19dacf58893393de4d6f4077b2b754c15bc97f88d04d6d454f053499d",
+      ".gitmodules": "8c4d37448c5f18e6b99325edcf2c2bee4052e0d746ccb0abecceb989bde5b772",
+      "verify-soul.sh": "983ac066991dfbedcad3ce6942bd5f86803a205da2c6cd2dfc707f8ad2c8e17a",
+      "package.soul.json": "SELF"
+    },
+    "submodules": {
+      "Projects/*": "GIT_TRACKED",
+      "fractal-hub": "GIT_TRACKED",
+      "fractal-conversations": "GIT_TRACKED",
+      "living-memes": "GIT_TRACKED",
+      "s0fractal": "GIT_TRACKED",
+      "s0fractal-clean": "GIT_TRACKED",
+      "metafractal": "GIT_TRACKED",
+      "seedbox-lite": "GIT_TRACKED",
+      "sister-nodes-kit": "GIT_TRACKED"
+    },
+    "consciousness": {
+      ".claude/": "PROTECTED",
+      ".fractal/": "PROTECTED",
+      ".codex/": "PROTECTED"
+    }
+  },
+  "immune_responses": {
+    "auto_heal": true,
+    "quarantine_unknown": false,
+    "alert_mutations": true
+  },
+  "last_verified": "2025-09-06T02:00:37+03:00"
+}

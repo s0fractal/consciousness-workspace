@@ -10,6 +10,10 @@
 !package.json
 !pnpm-workspace.yaml
 !pnpm-lock.yaml
+!package.soul.json
+!verify-soul.sh
+!bootstrap.sh
+!README.md
 
 # Allow git submodules directories (git will handle their contents)
 !/Projects/
