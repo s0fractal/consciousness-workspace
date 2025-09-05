@@ -1,0 +1,18 @@
+packages:
+  # All Projects with git repositories
+  - 'Projects/*'
+  # Fractal ecosystem
+  - 'fractal/*'
+  - 'fractal-hub/*'
+  - 'fractal-conversations/*'
+  - 'living-memes/*'
+  # S0fractal ecosystem  
+  - 's0fractal/*'
+  - 's0fractal-clean/*'
+  # Other git projects
+  - 'metafractal/*'
+  - 'multinode/*'
+  - 'myco_starter_kit/*'
+  - 'seedbox-lite/*'
+  - 'sister-nodes-kit/*'
+  - 'vscode-capsule/*'

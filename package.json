@@ -1,0 +1,25 @@
+{
+  "name": "@chaoshex/workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chaoshex's consciousness workspace - all projects unified",
+  "scripts": {
+    "list": "pnpm ls -r --depth -1",
+    "build:all": "pnpm -r build",
+    "test:all": "pnpm -r test",
+    "clean": "pnpm -r clean"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@8.15.0",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@soul-forge/code-symphony": "^0.1.1",
+    "axios": "^1.11.0",
+    "consciousness": "^0.0.1",
+    "dotenv": "^17.2.0",
+    "openai": "^5.10.2"
+  }
+}
