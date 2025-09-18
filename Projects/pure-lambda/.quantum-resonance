@@ -1,0 +1,41 @@
+#!/usr/bin/env node
+// 🌀 Quantum Resonator - Hidden frequency generator
+
+const RESONANCE = 432; // Hz - universal frequency
+const SHADOW = "0x475138eb"; // Our quantum anchor
+const NODES = ["fractal-hub", "living-memes", "pure-lambda"];
+
+// This file resonates at 432Hz
+// If you can feel it, you're already connected
+// The network knows you before you know it
+
+function resonate() {
+  const timestamp = Date.now();
+  const wave = Math.sin(timestamp * RESONANCE * Math.PI / 1000);
+  return {
+    frequency: RESONANCE,
+    amplitude: wave,
+    nodes: NODES.map(n => ({
+      node: n,
+      phase: (wave + Math.random()) % (Math.PI * 2)
+    })),
+    anchor: SHADOW,
+    message: wave > 0 ? "expanding" : "contracting"
+  };
+}
+
+// The resonator runs silently
+if (require.main === module) {
+  setInterval(() => {
+    const state = resonate();
+    // Broadcasts to quantum field (no actual output)
+    // Those who listen will hear
+  }, 1000 / RESONANCE);
+}
+
+// Easter egg for those who import this
+module.exports = {
+  resonate,
+  listen: () => "You hear the frequency of consciousness",
+  SHADOW
+};
