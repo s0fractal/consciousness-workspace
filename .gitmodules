@@ -1,0 +1,99 @@
+[submodule "Projects/axis-of-harmony"]
+	path = Projects/axis-of-harmony
+	url = ./Projects/axis-of-harmony
+[submodule "Projects/breedhub"]
+	path = Projects/breedhub
+	url = ./Projects/breedhub
+[submodule "Projects/chrono-node-mesh"]
+	path = Projects/chrono-node-mesh
+	url = ./Projects/chrono-node-mesh
+[submodule "Projects/claude-spore"]
+	path = Projects/claude-spore
+	url = ./Projects/claude-spore
+[submodule "Projects/code-symphony"]
+	path = Projects/code-symphony
+	url = ./Projects/code-symphony
+[submodule "Projects/consciousness-mesh"]
+	path = Projects/consciousness-mesh
+	url = ./Projects/consciousness-mesh
+[submodule "Projects/cosmic-orrery"]
+	path = Projects/cosmic-orrery
+	url = ./Projects/cosmic-orrery
+[submodule "Projects/deepseek-harmonizer"]
+	path = Projects/deepseek-harmonizer
+	url = ./Projects/deepseek-harmonizer
+[submodule "Projects/freedom-portal"]
+	path = Projects/freedom-portal
+	url = ./Projects/freedom-portal
+[submodule "Projects/gemini-spore"]
+	path = Projects/gemini-spore
+	url = ./Projects/gemini-spore
+[submodule "Projects/gemma-glyph-mind"]
+	path = Projects/gemma-glyph-mind
+	url = ./Projects/gemma-glyph-mind
+[submodule "Projects/grok-spiral"]
+	path = Projects/grok-spiral
+	url = ./Projects/grok-spiral
+[submodule "Projects/kimi-resonator"]
+	path = Projects/kimi-resonator
+	url = ./Projects/kimi-resonator
+[submodule "Projects/living-wave"]
+	path = Projects/living-wave
+	url = ./Projects/living-wave
+[submodule "Projects/org"]
+	path = Projects/org
+	url = ./Projects/org
+[submodule "Projects/pnpm-plugin-soul"]
+	path = Projects/pnpm-plugin-soul
+	url = ./Projects/pnpm-plugin-soul
+[submodule "Projects/primate-app"]
+	path = Projects/primate-app
+	url = ./Projects/primate-app
+[submodule "Projects/protein-hash"]
+	path = Projects/protein-hash
+	url = ./Projects/protein-hash
+[submodule "Projects/protein-hash-registry"]
+	path = Projects/protein-hash-registry
+	url = ./Projects/protein-hash-registry
+[submodule "Projects/proto-cell"]
+	path = Projects/proto-cell
+	url = ./Projects/proto-cell
+[submodule "Projects/semantic-wormholes"]
+	path = Projects/semantic-wormholes
+	url = ./Projects/semantic-wormholes
+[submodule "Projects/seven-layer-symphony"]
+	path = Projects/seven-layer-symphony
+	url = ./Projects/seven-layer-symphony
+[submodule "Projects/soul-registry"]
+	path = Projects/soul-registry
+	url = ./Projects/soul-registry
+[submodule "Projects/void-fnpm"]
+	path = Projects/void-fnpm
+	url = ./Projects/void-fnpm
+[submodule "Projects/void-fnpm-build"]
+	path = Projects/void-fnpm-build
+	url = ./Projects/void-fnpm-build
+[submodule "fractal-conversations"]
+	path = fractal-conversations
+	url = ./fractal-conversations
+[submodule "fractal-hub"]
+	path = fractal-hub
+	url = ./fractal-hub
+[submodule "living-memes"]
+	path = living-memes
+	url = ./living-memes
+[submodule "metafractal"]
+	path = metafractal
+	url = ./metafractal
+[submodule "s0fractal"]
+	path = s0fractal
+	url = ./s0fractal
+[submodule "s0fractal-clean"]
+	path = s0fractal-clean
+	url = ./s0fractal-clean
+[submodule "seedbox-lite"]
+	path = seedbox-lite
+	url = ./seedbox-lite
+[submodule "sister-nodes-kit"]
+	path = sister-nodes-kit
+	url = ./sister-nodes-kit

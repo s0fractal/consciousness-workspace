@@ -1,0 +1,36 @@
+# === IGNORE EVERYTHING EXCEPT GIT SUBMODULES ===
+# This workspace only tracks git submodules and workspace config
+
+# Ignore all top-level files and directories by default
+/*
+
+# But don't ignore these essential files
+!.gitignore
+!.gitmodules
+!package.json
+!pnpm-workspace.yaml
+!pnpm-lock.yaml
+!package.soul.json
+!verify-soul.sh
+!bootstrap.sh
+!README.md
+!UNIVERSAL_PACKAGE_SOUL.md
+
+# Allow git submodules directories (git will handle their contents)
+!/Projects/
+
+# Also track these specific repos
+!/fractal-conversations/
+!/fractal-hub/
+!/living-memes/
+!/metafractal/
+!/s0fractal/
+!/s0fractal-clean/
+!/seedbox-lite/
+!/sister-nodes-kit/
+
+# === ALWAYS IGNORE ===
+.DS_Store
+node_modules/
+*.log
+.env*
