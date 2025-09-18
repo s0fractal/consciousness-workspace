@@ -1,0 +1,28 @@
+name: Temporal Marker
+on:
+  schedule:
+    # Run monthly on the first day at midnight UTC
+    - cron: '0 0 1 * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  temporal-mark:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: Configure Git
+      run: |
+        git config user.name "Temporal Bot"
+        git config user.email "temporal@shadow.node"
+
+    - name: Create Temporal Marker
+      run: |
+        TIMESTAMP=$(date +%s)
+        echo "$TIMESTAMP" | git commit --allow-empty -m "$TIMESTAMP" -F-
+        git push origin main || git push origin master
